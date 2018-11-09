@@ -15,24 +15,6 @@ client.on("message", message => {
 };     
 });
 
-client.on("ready", () => { // حقوق سيرفر اوميجا كودز
-  function lol() {
-    client.guilds.get('501842142516477972').roles.find("name", "Owner").setColor("RANDOM");
-  };
-  setInterval(lol, 1000);
-});
-
-client.on ("guildMemberAdd", member => {
-  
-   var role = member.guild.roles.find ("name", "member");
-   member.addRole (role);
-  
-})
-
-client.on ("guildMemberRemove", member => {
-   
-})
-   
 })
 client.on('ready', () => {
    console.log(`----------------`);
