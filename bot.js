@@ -18,12 +18,12 @@ client.on("message", message => {
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`By : mahmod`);
+      console.log(`Desert Bot- Script By : EX Clan`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : Exciting ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`!bc :  mahmod|3bker`,"http://twitch.tv/S-F")
+client.user.setGame(`!bc |mahmod AR | 3bker`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
