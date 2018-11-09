@@ -21,6 +21,17 @@ client.on("ready", () => { // حقوق سيرفر اوميجا كودز
   };
   setInterval(lol, 1000);
 });
+
+client.on ("guildMemberAdd", member => {
+  
+   var role = member.guild.roles.find ("name", "member");
+   member.addRole (role);
+  
+})
+
+client.on ("guildMemberRemove", member => {
+   
+})
    
 })
 client.on('ready', () => {
